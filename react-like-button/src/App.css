@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#btn {
+  padding: 40px 180px;
+  font-size: 30px;
+  background-color: rgb(255, 235, 205);
+  border-radius: 60px;
+  border: 2px solid rgb(252, 139, 0);
+  box-shadow: 5px 5px 5px rgb(111, 67, 67);
+  outline: none;
+}
+
+#btn:active {
+  box-shadow: inset 2px 2px rgb(111, 67, 67);
+  padding-top: 42px;
+  padding-bottom: 38px
+}
+
+#btn span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(245, 148, 43);
+}
